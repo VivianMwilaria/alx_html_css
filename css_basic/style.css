@@ -1,0 +1,42 @@
+body main { 
+    display: flex
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex:auto
+}
+article{
+    flex: 2;
+}
+aside{
+    flex: 1;
+}
+
+article aside{
+    overflow-y: auto;
+}
+.tag_allowed{
+    font: 200;
+    color:blue
+}
+h1{
+    background-color: black;
+    color: crimson;
+}
+h2{
+    background-color: bisque;
+    
+}
+.logo{
+    size: 600px;
+    color: red;
+}
+.tables{
+    border-style: solid;
+    border-width: 2px;
+}

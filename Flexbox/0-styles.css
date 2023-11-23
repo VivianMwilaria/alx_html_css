@@ -199,6 +199,9 @@
   .col-1-2 {
     width: 50%;
   }
+  .row {
+    display: flex;
+  }
   
   /* Navbar
       ============================= */
@@ -496,6 +499,5 @@
     font-size: 10rem;
     z-index: -1;
   }
-    .row {
-        display: flex;
-    }
+
+    

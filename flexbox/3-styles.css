@@ -374,10 +374,14 @@
   /* Section Latest news 
       ============================= */
 
-  .Section-latest-news .row {
+  .section-latest-news .row {
     flex-direction: row-reverse;
   }
-  
+  /* Selection SERVICES 
+      ==============================*/
+  .section-services {
+     flex-wrap: wrap;
+  }
   /*** 4. CARD ***/
   
   /* Card (all styles)

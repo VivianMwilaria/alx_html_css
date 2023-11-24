@@ -375,11 +375,13 @@
       ============================= */
 
   .section-latest-news .row {
+    display: flex;
     flex-direction: row-reverse;
   }
   /* Selection SERVICES 
       ==============================*/
   .section-services .row {
+     display: flex;
      flex-wrap: wrap;
   }
 

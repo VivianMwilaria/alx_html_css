@@ -1,0 +1,147 @@
+* root {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+header {
+    background-image: url(headphones_hero_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+.header-logo img {
+    display: block;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+/*Nav bar*/
+.navbar-menu {
+    display: flex;
+    
+}
+.nav {
+    list-style: none;
+    display: flex;
+    padding: 30px;
+    text-align: center;
+}
+.nav-item {
+    margin-right: 15px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #ff6565;
+
+}
+
+/* hero section */
+
+.section-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20%;
+    text-align:center;
+    max-width: 600px;
+    width: 100px;
+    border-radius: 8px;
+    text-wrap: center;
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    text-wrap: balance;
+    justify-content: center;
+
+}
+.section-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-inner p {
+    margin: 50px 0;
+
+}
+
+.section-inner .button {
+    text-decoration: none;
+    background-color: #ff6565;
+    border: 1px solid #ff6565;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 2px 4px rgba(red, green, blue, alpha) (0,0.0,0.24);
+}
+
+.section-inner .button:hover {
+    opacity: 0.9;
+}
+.section-inner h2 {
+    color: #fff;
+    font-family: sans-serif ;
+    text-align: center;
+    text-wrap: balance;
+}
+.section-inner p {
+    text-wrap: wrap;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    text-wrap: balance;
+    
+}
+
+/* What-we-do sextion */
+    
+.what-we-do {
+    margin: 0px;
+    padding: 10%;
+    line-height: 0.05;
+    max-height: min-content;
+}
+.what-we-do h2 {
+    color: black;
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 32;
+}
+.what-we-do p {
+    color: black;
+    text-align: center;
+    text-wrap: balance;
+    font-size: 16;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-left: 8%;
+    
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: end;
+}
+

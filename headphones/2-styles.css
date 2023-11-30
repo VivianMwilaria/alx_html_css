@@ -50,31 +50,38 @@ header {
     color: #ff6565;
 
 }
-
+body {
+    margin: 0;
+    padding: 0%;
+}
 /* hero section */
 
 .section-hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1%;
+    padding: 20%;
     text-align:center;
     max-width: 600px;
     width: 100px;
     border-radius: 8px;
     text-wrap: center;
+    line-height: 1 100%;
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 30%;
     text-align: center;
     text-wrap: balance;
     justify-content: center;
 
 }
 .section-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    justify-content: center;
+    
 }
 .section-inner p {
     margin: 50px 0;
@@ -110,12 +117,13 @@ header {
 }
 
 /* What-we-do sextion */
-
- #first-main{
-     background-image: none;
-
- }
-   
+    
+.what-we-do {
+    margin: 0px;
+    padding: 10%;
+    line-height: 0.05;
+    max-height: min-content;
+}
 .what-we-do h2 {
     color: black;
     text-align: center;
@@ -129,9 +137,10 @@ header {
     text-wrap: balance;
     font-size: 16;
     text-align: center;
-    line-height: 26px;
-    padding-top: 10%;
+    line-height: 1.5;
+    padding-top: 10px;
     padding-left: 8%;
+    
 }
 .icons {
     display: flex;
@@ -141,19 +150,36 @@ header {
     align-items: end;
 }
 
-/* Results */
-section{
-    background-image: url(images/headphones_hero_2.jpg);
-    padding: 10%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
-}
+/* Results Section */
+.our-results{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    display: flex;
+    height: 50%;
+    width: 100%;
 
     
 
+  }
 
+  .our-results .section-title{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 32;
+    color: var(--color-white);
+    padding-top: 100px;
+    text-align: center;
+  }
 
+  .our-results .header-text{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16;
+    color: var(--color-white);
+    text-align: center;
+    padding-bottom: 50px;
+    text-wrap: balance;
+  }
 
+  

@@ -151,11 +151,12 @@ body {
 }
 
 /* Results Section */
-.what-we-do .section-header {
-    background-image: url(images/headphones_hero_2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.our-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
 }
+
 
   
